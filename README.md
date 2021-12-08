@@ -1,1 +1,1 @@
-# booking
+# Hotel booking App- Mern Stack

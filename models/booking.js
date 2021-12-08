@@ -12,6 +12,7 @@ const bookingSchema = mongoose.Schema({
     status:{type:String, required:true , default:'booked'},
 },{
     timestamps:true,
+    collection: 'bookings',
 }) 
 
 const bookingModel=mongoose.model('bookings' , bookingSchema)
